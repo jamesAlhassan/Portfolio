@@ -142,3 +142,25 @@ Navbar
   /* max-width: 1170px; */
   /* margin: 0 auto; */
 }
+.nav-toggle {
+  background: transparent;
+  border: transparent;
+  font-size: 1.5rem;
+  color: var(--clr-white);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.nav-toggle:hover {
+  transform: scale(1.2);
+  color: var(--clr-gold);
+}
+.nav-link {
+  display: block;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  transition: var(--transition);
+  letter-spacing: var(--spacing);
+  color: var(--clr-white);
+  cursor: pointer;
+  font-size: 1.2rem;
+}
