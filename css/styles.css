@@ -142,7 +142,7 @@ Navbar
   /* margin: 0 auto; */
 }
 .nav-toggle {
-  background: var(--clr-primary);
+  background: transparent;
   border: transparent;
   font-size: 1.5rem;
   color: var(--clr-grey-1);
