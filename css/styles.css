@@ -355,6 +355,19 @@ Services
   padding: 3rem 1rem 2.5rem 1rem;
   background-color: var(--clr-primary-light);
 }
+
+.service-btn:hover {
+  color: var(--clr-white);
+  font-family: var(--ff-primary-option);
+}
+.service-btn {
+  font-size: 0.75rem;
+  text-transform: capitalize;
+  padding: 0.375rem 0.5rem;
+  font-weight: 400;
+  margin-top: 1.25rem;
+  border-radius: var(--radius);
+}
 /* Animations */
 @keyframes bounce {
   0% {
