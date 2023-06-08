@@ -299,7 +299,7 @@ Navbar
   max-width: 56rem;
   color: var(--clr-grey-5);
   margin-left: 3rem;
-  font-family: var(--ff-primary-option);
+  font-family: var(--ff-primary);
 }
 .section-title,
 .ll {
@@ -307,6 +307,17 @@ Navbar
 }
 .section-title--h3 {
   font-family: var(--ff-primary-option);
+}
+
+.techs {
+  display: flex;
+  /* justify-content: center; */
+  margin-left: 3rem;
+}
+.tech--one > p,
+.tech--two > p {
+  color: var(--clr-primary);
+  padding: 1rem;
 }
 /* @media screen and (min-width: 992px) {
   .about-img,
