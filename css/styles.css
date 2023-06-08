@@ -16,6 +16,7 @@ Variables
   --clr-primary: #678e3e;
   --clr-primary-light: #beed8c;
   --clr-grey-1: #102a42;
+  --clr-grey-5: #617d98;
   --clr-white: #fff;
   --ff-primary: "Catamaran", sans-serif;
   --ff-secondary: "Grand Hotel", cursive;
@@ -274,6 +275,49 @@ Navbar
   );
 }
 
+.about-img,
+.about-info {
+  padding: 2rem 0;
+}
+.about-pic-container {
+  background: var(--clr-primary);
+  border: 0.5rem solid var(--clr-primary);
+  max-width: 30rem;
+  overflow: hidden;
+}
+.about-pic {
+  transition: var(--transition);
+}
+
+.about-pic-container:hover,
+.about-pic {
+  opacity: 0.5;
+  transform: scale(1.1);
+}
+
+.about-text {
+  max-width: 56rem;
+  color: var(--clr-grey-5);
+  margin-left: 3rem;
+  font-family: var(--ff-primary-option);
+}
+.section-title,
+.ll {
+  margin-left: 3rem;
+}
+.section-title--h3 {
+  font-family: var(--ff-primary-option);
+}
+/* @media screen and (min-width: 992px) {
+  .about-img,
+  .about-info {
+    float: left;
+    width: 50%;
+  }
+  .about-info {
+    padding-left: 2rem;
+  }
+} */
 /* Animations */
 @keyframes bounce {
   0% {
