@@ -17,6 +17,7 @@ Variables
   --clr-primary-light: #beed8c;
   --clr-grey-1: #102a42;
   --clr-grey-5: #617d98;
+  --clr-grey-10: #f1f5f8;
   --clr-white: #fff;
   --ff-primary: "Catamaran", sans-serif;
   --ff-secondary: "Grand Hotel", cursive;
@@ -337,7 +338,23 @@ Services
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: var(--transition);
 }
+.service-card:hover {
+  transform: scale(1.2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
 
+.service-img {
+  height: 17rem;
+  object-fit: cover;
+  border-top-left-radius: var(--radius);
+  border-top-right-radius: var(--radius);
+  width: 300px;
+}
+.service-info {
+  text-align: center;
+  padding: 3rem 1rem 2.5rem 1rem;
+  background-color: var(--clr-primary-light);
+}
 /* Animations */
 @keyframes bounce {
   0% {
