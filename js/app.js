@@ -10,5 +10,5 @@ const preloader = document.querySelector(".preloader");
 window.addEventListener("load", function () {
   setTimeout(() => {
     preloader.classList.add("hide-preloader");
-  }, 3000);
+  }, 1000);
 });
