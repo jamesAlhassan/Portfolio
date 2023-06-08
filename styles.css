@@ -122,3 +122,23 @@ p {
   color: var(--clr-white);
   background: transparent;
 }
+/*
+=============== 
+Navbar
+===============
+*/
+.navbar {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+}
+.nav-icons {
+  display: none;
+}
+.nav-center {
+  width: 100%;
+  /* max-width: 1170px; */
+  /* margin: 0 auto; */
+}
