@@ -183,3 +183,19 @@ Navbar
 .show-links {
   height: 280px;
 }
+@media screen and (min-width: 992px) {
+  .nav-toggle {
+    display: none;
+  }
+  .nav-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .nav-links {
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
