@@ -13,10 +13,9 @@ Variables
 
 :root {
   /* dark shades of primary color*/
-  --clr-bg: rgb(17 24 39);
-  --clr-gold: rgb(255, 215, 0);
-  --clr-grey-10: hsl(210, 36%, 96%);
-  --clr-indigo: #818cf8;
+  --clr-primary: #678e3e;
+  --clr-primary-light: #beed8c;
+  --clr-grey-1: #102a42;
   --clr-white: #fff;
   --ff-primary: "League Spartan", sans-serif;
   --ff-primary-option: "Montserrat", sans-serif;
@@ -42,8 +41,8 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: var(--ff-primary);
-  background: var(--clr-bg);
+  font-family: var(--ff-primary-option);
+  background: var(--clr-white);
   color: var(--clr-grey-1);
   line-height: 1.5;
 }
@@ -143,16 +142,16 @@ Navbar
   /* margin: 0 auto; */
 }
 .nav-toggle {
-  background: transparent;
+  background: var(--clr-primary);
   border: transparent;
   font-size: 1.5rem;
-  color: var(--clr-white);
+  color: var(--clr-grey-1);
   cursor: pointer;
   transition: var(--transition);
 }
 .nav-toggle:hover {
   transform: scale(1.2);
-  color: var(--clr-gold);
+  color: var(--clr-primary);
 }
 .nav-link {
   display: block;
@@ -160,19 +159,20 @@ Navbar
   text-transform: capitalize;
   transition: var(--transition);
   letter-spacing: var(--spacing);
-  color: var(--clr-white);
+  color: var(--clr-primary);
+  /* font-weight: 500; */
   cursor: pointer;
   font-size: 1.2rem;
 }
 .nav-link:hover {
-  color: var(--clr-gold);
+  color: var(--clr-primary-light);
   padding-left: 2.25rem;
 }
 .nav-link:hover .html {
-  color: var(--clr-white);
+  color: black;
 }
 .html {
-  color: var(--clr-gold);
+  color: blue;
 }
 
 .nav-links {
