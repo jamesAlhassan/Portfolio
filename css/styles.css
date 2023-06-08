@@ -319,16 +319,25 @@ Navbar
   color: var(--clr-primary);
   padding: 1rem;
 }
-/* @media screen and (min-width: 992px) {
-  .about-img,
-  .about-info {
-    float: left;
-    width: 50%;
-  }
-  .about-info {
-    padding-left: 2rem;
-  }
-} */
+/* 
+====================================
+Services
+====================================
+ */
+.services-title {
+  margin-top: 4rem;
+  margin-bottom: -4rem;
+  text-align: center;
+}
+
+.service-card {
+  margin: 2rem 0;
+  background: var(--clr-grey-10);
+  border-radius: var(--radius);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+
 /* Animations */
 @keyframes bounce {
   0% {
