@@ -241,3 +241,15 @@ Navbar
   color: var(--clr-primary);
   animation: slideFromRight 5s ease-in-out 1;
 }
+.banner h1 {
+  text-transform: uppercase;
+  font-family: var(--ff-primary-option);
+  color: var(--clr-white);
+  margin-top: 1.25rem;
+  animation: slideFromLeft 5s ease-in-out 1;
+}
+.soft {
+  color: var(--clr-primary);
+  font-family: var(--ff-secondary);
+  margin-bottom: 2rem;
+}
