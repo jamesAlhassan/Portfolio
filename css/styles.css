@@ -262,6 +262,17 @@ Navbar
   padding: 1rem 1.75rem;
   animation: show 5s linear 1;
 }
+/* content divider */
+.content-divider {
+  height: 0.5rem;
+  background: linear-gradient(
+    to right,
+    var(--clr-primary),
+    var(--clr-primary-light),
+    #f6d365,
+    #fda085
+  );
+}
 
 /* Animations */
 @keyframes bounce {
