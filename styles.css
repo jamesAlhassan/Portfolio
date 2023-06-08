@@ -164,3 +164,22 @@ Navbar
   cursor: pointer;
   font-size: 1.2rem;
 }
+.nav-link:hover {
+  color: var(--clr-gold);
+  padding-left: 2.25rem;
+}
+.nav-link:hover .html {
+  color: var(--clr-white);
+}
+.html {
+  color: var(--clr-gold);
+}
+
+.nav-links {
+  height: 0;
+  overflow: hidden;
+  transition: var(--transition);
+}
+.show-links {
+  height: 280px;
+}
