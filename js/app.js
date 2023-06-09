@@ -12,3 +12,6 @@ window.addEventListener("load", function () {
     preloader.classList.add("hide-preloader");
   }, 500);
 });
+//setup date
+const date = (document.getElementById("date").innerHTML =
+  new Date().getFullYear());
