@@ -370,13 +370,12 @@ Services
 }
 
 .service-img {
-  height: 17rem;
-  object-fit: cover;
+  height: 15rem;
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
-  width: 300px;
+  width: 21.25rem;
   object-position: 30% 70%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .service-info {
@@ -439,7 +438,7 @@ Footer
   background: #222;
   text-align: center;
   position: absolute;
-  bottom: -800px;
+  bottom: -1500px;
   left: 0;
   right: 0;
   height: 11rem;
