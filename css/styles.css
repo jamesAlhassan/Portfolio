@@ -371,10 +371,9 @@ Services
 
 .service-img {
   height: 15rem;
+  width: 21.25rem;
   border-top-left-radius: var(--radius);
   border-top-right-radius: var(--radius);
-  width: 21.25rem;
-  object-position: 30% 70%;
   object-fit: cover;
 }
 
